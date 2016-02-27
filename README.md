@@ -1,10 +1,10 @@
 # opendns4net
 Access and download OpenDNS statistics from your C# code. This project provides managed .NET API to OpenDNS dashboard.
 
-# Available classes
-* StatsLoader - API class. Wrapper of OpenDNS dashboard
-* UserNetworkDescriptor - descriptor of user networks
-* enum StatsType - types of available OpenDns statistics 
+# Available classes;
+* *StatsLoader* - API class. Wrapper of OpenDNS dashboard
+* *UserNetworkDescriptor* - descriptor of user networks
+* enum *StatsType* - types of available OpenDns statistics 
 
 # Examples
 * See example [Downloader project](https://github.com/danikf/opendns4net/tree/master/OpenDns4net.Downloader).
