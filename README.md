@@ -30,4 +30,4 @@ Also published as [nuget package](https://www.nuget.org/packages/opendns4net).
     }
 ```
 
-NOTE: this library is improved port of [opendns-fetchstats](https://github.com/rcrowley/opendns-fetchstats) project.
+NOTE: this library is improved C# port of [opendns-fetchstats](https://github.com/rcrowley/opendns-fetchstats) project.
