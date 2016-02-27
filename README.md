@@ -1,6 +1,8 @@
 # opendns4net
 Access and download OpenDNS statistics from your C# code. This project provides managed .NET API to OpenDNS dashboard.
 
+Also published as [nuget package](https://www.nuget.org/packages/opendns4net).
+
 # Available classes;
 * *StatsLoader* - API class. Wrapper of OpenDNS dashboard
 * *UserNetworkDescriptor* - descriptor of user networks

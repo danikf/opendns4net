@@ -4,7 +4,6 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 
 namespace Opendns4net.Stats
 {
@@ -184,7 +183,7 @@ namespace Opendns4net.Stats
                 string csvData = _webClient.DownloadString(downloadUrl);
                 if (page == 1)
                 {
-                    if (string.IsNullOrWhiteSpace(csvData))
+                    if (StringHelper.IsNullOrWhiteSpace(csvData))
                         throw new DataDownloadException(string.Format("You can not access network {0} data.", _networkId));
                     else if (csvData.Contains("We don't have any data for you"))
                         return result; //empty list
@@ -196,9 +195,9 @@ namespace Opendns4net.Stats
                 if (page > 1)
                     csvLines = csvLines.Skip(1); //skip header for other pages
 
-                if (string.IsNullOrWhiteSpace(csvLines.FirstOrDefault()))
+                if (StringHelper.IsNullOrWhiteSpace(csvLines.FirstOrDefault()))
                     break;
-                result.AddRange(csvLines.Where(line => !string.IsNullOrWhiteSpace(line)));
+                result.AddRange(csvLines.Where(line => !StringHelper.IsNullOrWhiteSpace(line)));
             }
 
             return result;
