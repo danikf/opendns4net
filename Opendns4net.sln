@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opendns4net.Stats", "Opendns4net.Stats\Opendns4net.Stats.csproj", "{56F6B2C6-7735-4C78-B5A2-58772CE082E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenDns4net.Downloader", "OpenDns4net.Downloader\OpenDns4net.Downloader.csproj", "{B8B634EC-EAA5-45E7-81B9-3AA6B879BAA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56F6B2C6-7735-4C78-B5A2-58772CE082E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56F6B2C6-7735-4C78-B5A2-58772CE082E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56F6B2C6-7735-4C78-B5A2-58772CE082E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56F6B2C6-7735-4C78-B5A2-58772CE082E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8B634EC-EAA5-45E7-81B9-3AA6B879BAA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8B634EC-EAA5-45E7-81B9-3AA6B879BAA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8B634EC-EAA5-45E7-81B9-3AA6B879BAA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8B634EC-EAA5-45E7-81B9-3AA6B879BAA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
